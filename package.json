@@ -1,0 +1,17 @@
+{
+  "name": "ut",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "@vitest/coverage-istanbul": "3.0.7",
+    "vitest": "^3.0.7"
+  }
+}
