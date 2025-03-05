@@ -1,0 +1,44 @@
+.custom-button {
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.custom-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* 类型样式 */
+.primary {
+  background-color: #1890ff;
+  color: white;
+}
+
+.secondary {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.danger {
+  background-color: #ff4d4f;
+  color: white;
+}
+
+/* 尺寸样式 */
+.small {
+  padding: 4px 12px;
+  font-size: 12px;
+}
+
+.medium {
+  padding: 8px 16px;
+  font-size: 14px;
+}
+
+.large {
+  padding: 12px 20px;
+  font-size: 16px;
+}

@@ -1,0 +1,62 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`MyButton Snapshot Testing > 渲染 secondary 类型按钮 1`] = `
+<div>
+  <button
+    class="custom-button secondary medium"
+    data-testid="custom-button"
+    role="button"
+  >
+    取消操作
+  </button>
+</div>
+`;
+
+exports[`MyButton Snapshot Testing > 渲染 small 尺寸按钮 1`] = `
+<div>
+  <button
+    class="custom-button primary small"
+    data-testid="custom-button"
+    role="button"
+  >
+    小按钮
+  </button>
+</div>
+`;
+
+exports[`MyButton Snapshot Testing > 渲染带有所有事件处理器的按钮 1`] = `
+<div>
+  <button
+    class="custom-button primary medium"
+    data-testid="custom-button"
+    role="button"
+  >
+    交互按钮
+  </button>
+</div>
+`;
+
+exports[`MyButton Snapshot Testing > 渲染禁用状态按钮 1`] = `
+<div>
+  <button
+    class="custom-button primary medium disabled"
+    data-testid="custom-button"
+    disabled=""
+    role="button"
+  >
+    不可用按钮
+  </button>
+</div>
+`;
+
+exports[`MyButton Snapshot Testing > 渲染默认主按钮 1`] = `
+<div>
+  <button
+    class="custom-button primary medium"
+    data-testid="custom-button"
+    role="button"
+  >
+    提交按钮
+  </button>
+</div>
+`;
