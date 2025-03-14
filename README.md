@@ -1,5 +1,7 @@
 # 一个vitest单元测试学习例子的demo项目
 
+[博客教程](https://www.clevali.cn/blogs/blog-ut-1)
+
 包含以下测试case：
 
 ## 函数测试
